@@ -2,11 +2,29 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meine Portfolioseite</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Symbole -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Willkommen!</h1>
-  <p>Das ist meine Bewerbungsseite.</p>
+
+	<!-- Hamburger Menü -->
+	<button class="menu-toggle" onclick="toggleSidebar()">☰</button>
+	
+	<!-- Navigation -->
+	<nav class="sidebar" id="sidebar">
+		<a href="#home"><i class="fas fa-home"></i> Startseite</a>
+		<a href="#about"><i class="fas fa-user"></i> Über mich</a>
+		<a href="#projects"><i class="fas fa-code"></i> Projekte</a>
+		<a href="#contact"><i class="fas fa-envelope"></i> Kontakt</a>
+	</nav>
+	
+	<!-- Hauptinhalt -->
+	<div class="main">
+  		<h1>Willkommen!</h1>
+  		<p>Das ist meine Bewerbungsseite.</p>
+  	</div>
 </body>
 </html>
